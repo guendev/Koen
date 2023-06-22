@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC09AA2A44912700E7BC00 /* Welcome.swift */; };
+		12AC09DA2A44955C00E7BC00 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */; };
+		12AC09E12A4498EC00E7BC00 /* Sacramento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */; };
 		12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */; };
 		12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CE2A3B285D0072BA2D /* Persistence.swift */; };
 		12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1D02A3B285D0072BA2D /* Koen.xcdatamodeld */; };
 		12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1D32A3B285D0072BA2D /* ContentView.swift */; };
 		12EAD1D62A3B285E0072BA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EAD1D52A3B285E0072BA2D /* Assets.xcassets */; };
 		12EAD1DA2A3B285E0072BA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */; };
+		12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB807C2A449C1300ECF4C0 /* Poppins.swift */; };
+		12FB807F2A449E1D00ECF4C0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */; };
+		12FB80842A44A70C00ECF4C0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12AC09AA2A44912700E7BC00 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sacramento-Regular.ttf"; sourceTree = "<group>"; };
 		12EAD1C92A3B285D0072BA2D /* Koen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoenApp.swift; sourceTree = "<group>"; };
 		12EAD1CE2A3B285D0072BA2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		12EAD1D52A3B285E0072BA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12EAD1D72A3B285E0072BA2D /* Koen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koen.entitlements; sourceTree = "<group>"; };
 		12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12FB807C2A449C1300ECF4C0 /* Poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poppins.swift; sourceTree = "<group>"; };
+		12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12AC09A42A448EB800E7BC00 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				12AC09AA2A44912700E7BC00 /* Welcome.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		12AC09A52A448EC500E7BC00 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		12AC09A62A448EE400E7BC00 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		12AC09AD2A44935200E7BC00 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				12AC09DE2A4498C400E7BC00 /* Sacramento */,
+				12AC09D82A44954200E7BC00 /* Poppins */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		12AC09D82A44954200E7BC00 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */,
+				12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */,
+				12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		12AC09DE2A4498C400E7BC00 /* Sacramento */ = {
+			isa = PBXGroup;
+			children = (
+				12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */,
+			);
+			path = Sacramento;
+			sourceTree = "<group>";
+		};
 		12EAD1C02A3B285D0072BA2D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +117,11 @@
 		12EAD1CB2A3B285D0072BA2D /* Koen */ = {
 			isa = PBXGroup;
 			children = (
+				12FB807B2A449BEF00ECF4C0 /* constants */,
+				12AC09AD2A44935200E7BC00 /* fonts */,
+				12AC09A52A448EC500E7BC00 /* components */,
+				12AC09A62A448EE400E7BC00 /* models */,
+				12AC09A42A448EB800E7BC00 /* pages */,
 				12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */,
 				12EAD1CE2A3B285D0072BA2D /* Persistence.swift */,
 				12EAD1D32A3B285D0072BA2D /* ContentView.swift */,
@@ -73,6 +139,14 @@
 				12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12FB807B2A449BEF00ECF4C0 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				12FB807C2A449C1300ECF4C0 /* Poppins.swift */,
+			);
+			path = constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AC09DA2A44955C00E7BC00 /* Poppins-SemiBold.ttf in Resources */,
 				12EAD1DA2A3B285E0072BA2D /* Preview Assets.xcassets in Resources */,
+				12AC09E12A4498EC00E7BC00 /* Sacramento-Regular.ttf in Resources */,
+				12FB80842A44A70C00ECF4C0 /* Poppins-Medium.ttf in Resources */,
 				12EAD1D62A3B285E0072BA2D /* Assets.xcassets in Resources */,
+				12FB807F2A449E1D00ECF4C0 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
+				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
 				12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */,
+				12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
 			);
@@ -277,6 +357,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koen/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,7 +373,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.guen.koen.Koen;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.guen.koen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -315,6 +396,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Koen/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,7 +412,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.guen.koen.Koen;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.guen.koen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
