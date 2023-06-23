@@ -19,6 +19,8 @@
 		12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB807C2A449C1300ECF4C0 /* Poppins.swift */; };
 		12FB807F2A449E1D00ECF4C0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */; };
 		12FB80842A44A70C00ECF4C0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */; };
+		12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB80852A44B15F00ECF4C0 /* Home.swift */; };
+		12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB80912A45389400ECF4C0 /* HomeNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		12FB807C2A449C1300ECF4C0 /* Poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poppins.swift; sourceTree = "<group>"; };
 		12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		12FB80852A44B15F00ECF4C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		12FB80912A45389400ECF4C0 /* HomeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				12AC09AA2A44912700E7BC00 /* Welcome.swift */,
+				12FB80852A44B15F00ECF4C0 /* Home.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -60,6 +65,7 @@
 		12AC09A52A448EC500E7BC00 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				12FB80902A45388600ECF4C0 /* home */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -149,6 +155,14 @@
 			path = constants;
 			sourceTree = "<group>";
 		};
+		12FB80902A45388600ECF4C0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				12FB80912A45389400ECF4C0 /* HomeNavigation.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +240,11 @@
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
 				12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */,
+				12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */,
 				12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
+				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
