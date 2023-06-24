@@ -8,16 +8,30 @@
 import SwiftUI
 
 struct Home: View {
+    
+    var context: HomeContext = .init()
+    
     var body: some View {
         NavigationStack {
             
             ScrollView {
-                HomeNavigation()
+                VStack(spacing: 20) {
+                    HomeNavigation()
+                        .padding(.horizontal)
+                    
+                    HomeBanner()
+                        .padding(.horizontal)
+                    
+                    HomeCategories()
+                    
+                    HomeRecomendations()
+                }
             }
             .frame(maxWidth: .infinity)
             .background(Color("Background"))
             
         }
+        .environmentObject(context)
     }
 
 }
