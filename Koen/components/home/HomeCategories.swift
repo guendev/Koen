@@ -13,11 +13,7 @@ struct HomeCategories: View {
     
     var body: some View {
         
-        Section(StringProtocol, content: <#T##() -> View#>)
-        
         SessionView(title: "Category") {
-            // view content
-            
             ScrollView(.horizontal, showsIndicators: false) {
                 
                 HStack(spacing: 15) {

@@ -7,15 +7,20 @@
 
 import SwiftUI
 
-struct SessionView<Content: View, Right: View>: View {
+struct SessionView<Content>: View where Content: View {
     let title: String
-    var content: Content?
-    var right: Right?
+    var content: () -> Content
+    var right: () -> Content?
+    // @ViewBuilder var right: Right
     
-    init(title: String, @ViewBuilder content: () -> Content? = { nil }, @ViewBuilder right: () -> Right? = { nil }) {
+    init(
+        title: String,
+        @ViewBuilder content: @escaping () -> Content,
+        @ViewBuilder right: @escaping () -> Content? = { nil }
+    ) {
         self.title = title
-        self.content = content()
-        self.right = right()
+        self.content = content
+        self.right = right
     }
     
     var body: some View {
@@ -26,13 +31,22 @@ struct SessionView<Content: View, Right: View>: View {
                 
                 Spacer()
                 
-                right
+                right()
             }
             .padding(.horizontal)
             
-            content
+            content()
             
             Spacer()
         }
     }
 }
+
+struct SessionView_Previews: PreviewProvider {
+    static var previews: some View {
+        SessionView(title: "Hello") {
+            
+        }
+    }
+}
+
