@@ -24,4 +24,7 @@ class HomeContext: ObservableObject {
         Video(id: "2", name: "English Pronunciation Practice for Beginners", time: "4 h 32 min"),
         Video(id: "3", name: "Business English Vocabulary and Phrases", time: "4 h 32 min")
     ]
+    
+    @Published
+    var openedLession: Bool = false
 }

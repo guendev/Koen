@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		12100BD32A474E1D00F2B05A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD22A474E1D00F2B05A /* Video.swift */; };
+		12100BD52A47D05A00F2B05A /* Lession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD42A47D05A00F2B05A /* Lession.swift */; };
+		12100BD72A47D0FF00F2B05A /* LessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD62A47D0FF00F2B05A /* LessionContext.swift */; };
+		1215DDCD2A48831D00B94BF7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCC2A48831D00B94BF7 /* Word.swift */; };
+		1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCE2A48850600B94BF7 /* WordGroup.swift */; };
 		121F2CE02A4679120045EEBB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */; };
 		121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F2CE12A467B790045EEBB /* HomeBanner.swift */; };
-		12723AB42A46C9E00003EEF2 /* HomeCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB32A46C9E00003EEF2 /* HomeCategories.swift */; };
+		122D00422A48791200C65BEE /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D00412A48791200C65BEE /* Vocabulary.swift */; };
+		12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB32A46C9E00003EEF2 /* HomeCategory.swift */; };
 		12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB52A46CAD60003EEF2 /* HomeContext.swift */; };
 		12723AB92A46CCE00003EEF2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB82A46CCE00003EEF2 /* Category.swift */; };
 		12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723ABA2A46D1760003EEF2 /* HomeRecomendations.swift */; };
@@ -33,9 +38,14 @@
 
 /* Begin PBXFileReference section */
 		12100BD22A474E1D00F2B05A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		12100BD42A47D05A00F2B05A /* Lession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lession.swift; sourceTree = "<group>"; };
+		12100BD62A47D0FF00F2B05A /* LessionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessionContext.swift; sourceTree = "<group>"; };
+		1215DDCC2A48831D00B94BF7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		1215DDCE2A48850600B94BF7 /* WordGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroup.swift; sourceTree = "<group>"; };
 		121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		121F2CE12A467B790045EEBB /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
-		12723AB32A46C9E00003EEF2 /* HomeCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategories.swift; sourceTree = "<group>"; };
+		122D00412A48791200C65BEE /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		12723AB32A46C9E00003EEF2 /* HomeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategory.swift; sourceTree = "<group>"; };
 		12723AB52A46CAD60003EEF2 /* HomeContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContext.swift; sourceTree = "<group>"; };
 		12723AB82A46CCE00003EEF2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		12723ABA2A46D1760003EEF2 /* HomeRecomendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecomendations.swift; sourceTree = "<group>"; };
@@ -74,6 +84,9 @@
 			children = (
 				12723AB82A46CCE00003EEF2 /* Category.swift */,
 				12100BD22A474E1D00F2B05A /* Video.swift */,
+				122D00412A48791200C65BEE /* Vocabulary.swift */,
+				1215DDCC2A48831D00B94BF7 /* Word.swift */,
+				1215DDCE2A48850600B94BF7 /* WordGroup.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -91,6 +104,7 @@
 			children = (
 				12AC09AA2A44912700E7BC00 /* Welcome.swift */,
 				12FB80852A44B15F00ECF4C0 /* Home.swift */,
+				12100BD42A47D05A00F2B05A /* Lession.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -108,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				12723AB52A46CAD60003EEF2 /* HomeContext.swift */,
+				12100BD62A47D0FF00F2B05A /* LessionContext.swift */,
 			);
 			path = contexts;
 			sourceTree = "<group>";
@@ -197,7 +212,7 @@
 			children = (
 				12FB80912A45389400ECF4C0 /* HomeNavigation.swift */,
 				121F2CE12A467B790045EEBB /* HomeBanner.swift */,
-				12723AB32A46C9E00003EEF2 /* HomeCategories.swift */,
+				12723AB32A46C9E00003EEF2 /* HomeCategory.swift */,
 				12723ABA2A46D1760003EEF2 /* HomeRecomendations.swift */,
 			);
 			path = home;
@@ -280,15 +295,20 @@
 			files = (
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
 				12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */,
+				12100BD72A47D0FF00F2B05A /* LessionContext.swift in Sources */,
 				12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */,
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
 				12100BD32A474E1D00F2B05A /* Video.swift in Sources */,
+				12100BD52A47D05A00F2B05A /* Lession.swift in Sources */,
 				12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */,
 				12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */,
+				1215DDCD2A48831D00B94BF7 /* Word.swift in Sources */,
 				121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */,
+				1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */,
 				12723ABE2A46D2C10003EEF2 /* SessionView.swift in Sources */,
+				122D00422A48791200C65BEE /* Vocabulary.swift in Sources */,
 				12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */,
-				12723AB42A46C9E00003EEF2 /* HomeCategories.swift in Sources */,
+				12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
 				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,
