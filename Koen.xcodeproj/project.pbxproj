@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12100BD32A474E1D00F2B05A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD22A474E1D00F2B05A /* Video.swift */; };
 		121F2CE02A4679120045EEBB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */; };
 		121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F2CE12A467B790045EEBB /* HomeBanner.swift */; };
 		12723AB42A46C9E00003EEF2 /* HomeCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB32A46C9E00003EEF2 /* HomeCategories.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12100BD22A474E1D00F2B05A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		121F2CE12A467B790045EEBB /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
 		12723AB32A46C9E00003EEF2 /* HomeCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategories.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				12723AB82A46CCE00003EEF2 /* Category.swift */,
+				12100BD22A474E1D00F2B05A /* Video.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */,
 				12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */,
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
+				12100BD32A474E1D00F2B05A /* Video.swift in Sources */,
 				12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */,
 				12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */,
 				121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */,

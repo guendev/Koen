@@ -16,24 +16,24 @@ struct HomeCategories: View {
         SessionView(title: "Category") {
             ScrollView(.horizontal, showsIndicators: false) {
                 
-                HStack(spacing: 15) {
+                HStack(alignment: .top, spacing: 15) {
                     
                     ForEach(conext.categories) { category in
-                        VStack {
+                        VStack(spacing: 4) {
                             
                             RoundedRectangle(cornerRadius: 20)
                                 .fill(Color("Gray"))
                                 .frame(width: 68, height: 68)
                             
                             Text(category.name)
-                                .lineLimit(2)
+                                .font(.custom(Poppins.Regular.rawValue, size: 14))
+                                .lineLimit(1)
                                 .frame(width: 68)
                         }
                     }
                     
                 }
                 .padding(.horizontal)
-                
             }
         }
     }

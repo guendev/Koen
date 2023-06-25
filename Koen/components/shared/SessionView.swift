@@ -36,17 +36,13 @@ struct SessionView<Content>: View where Content: View {
             .padding(.horizontal)
             
             content()
-            
-            Spacer()
         }
     }
 }
 
 struct SessionView_Previews: PreviewProvider {
     static var previews: some View {
-        SessionView(title: "Hello") {
-            
-        }
+        ContentView()
     }
 }
 

@@ -23,7 +23,7 @@ struct ContentView: View {
                     .tag(MainTab.Discovery)
                             
                 Color.yellow
-                    .tag(MainTab.Chat)
+                    .tag(MainTab.Voice)
                             
                 Color.pink
                     .tag(MainTab.Edit)
@@ -52,7 +52,7 @@ struct ContentView: View {
                         
                     } label: {
                         
-                        Image(tab.rawValue)
+                        Image(currentTab.rawValue == tab.rawValue ? tab.rawValue + "Bold" : tab.rawValue)
                             .renderingMode(.template)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -74,8 +74,8 @@ struct ContentView: View {
 
 
 enum MainTab: String, CaseIterable {
-    case Discovery = "Discovery"
-    case Chat = "Chat"
+    case Discovery = "Category"
+    case Voice = "Voice"
     case Edit = "Edit"
     case Filter = "Filter"
 }

@@ -17,4 +17,11 @@ class HomeContext: ObservableObject {
         Category(id: "5", name: "Education"),
         Category(id: "6", name: "Environment")
     ]
+    
+    @Published
+    var videos: [Video] = [
+        Video(id: "1", name: "Learn English through TV Shows", time: "4 h 32 min"),
+        Video(id: "2", name: "English Pronunciation Practice for Beginners", time: "4 h 32 min"),
+        Video(id: "3", name: "Business English Vocabulary and Phrases", time: "4 h 32 min")
+    ]
 }
