@@ -41,7 +41,26 @@ struct WordGroupView: View {
             }
         } footer: {
             
-            VStack(spacing: 10) {
+            HStack(spacing: 10) {
+                
+                Button {
+                    
+                } label: {
+                    
+                    Text("BACK")
+                        .font(.custom(Poppins.SemiBold.rawValue, size: 16))
+                        .foregroundColor(.white)
+                        .tracking(0.05)
+                        .lineSpacing(18)
+                    
+                }
+                .padding(.vertical, 15)
+                .padding(.horizontal, 19)
+                .background(Color("Waring"))
+                .cornerRadius(20)
+                .clipped()
+                .shadow(color: Color("Waring").opacity(0.5), radius: 1)
+                
                 
                 Button {
                     
@@ -55,13 +74,14 @@ struct WordGroupView: View {
                     
                 }
                 .frame(maxWidth: .infinity)
-                .padding(.vertical, 17)
+                .padding(.vertical, 15)
                 .background(Color("Primary"))
                 .cornerRadius(20)
                 .clipped()
+                .shadow(color: Color("Primary").opacity(0.5), radius: 8)
                 
             }
-            .padding(.top, 18)
+            .padding(.vertical, 18)
             .padding(.horizontal)
             .background(Color.white)
             
