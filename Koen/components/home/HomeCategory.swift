@@ -42,7 +42,7 @@ struct HomeCategory: View {
                         }
                         .buttonStyle(.plain)
                         .fullScreenCover(isPresented: $conext.openedLession) {
-                            Lession()
+                            WordGroupView()
                         }
 
                     }
