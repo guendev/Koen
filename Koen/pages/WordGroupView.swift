@@ -23,10 +23,11 @@ struct WordGroupView: View {
     
     var body: some View {
         
-        VStack {
+        VStack(spacing: 0) {
             StretchyLayout(height: .constant(headerHeight()), pinnedViews: [.sectionFooters], edges: .top) {
                 GroupContent()
-                    .frame(minHeight: height - headerHeight())
+                    .padding(.top, 10)
+                    .frame(minHeight: height - headerHeight(), alignment: .top)
             } header: {
                 GroupHeader()
             }

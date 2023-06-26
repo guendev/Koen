@@ -12,6 +12,8 @@ struct GroupContent: View {
         VStack {
             GroupName()
         }
+        .padding(.horizontal)
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
