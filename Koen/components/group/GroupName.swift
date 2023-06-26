@@ -1,5 +1,5 @@
 //
-//  GroupContent.swift
+//  GroupName.swift
 //  Koen
 //
 //  Created by Guen on 26/06/2023.
@@ -7,15 +7,13 @@
 
 import SwiftUI
 
-struct GroupContent: View {
+struct GroupName: View {
     var body: some View {
-        VStack {
-            GroupName()
-        }
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct GroupContent_Previews: PreviewProvider {
+struct GroupName_Previews: PreviewProvider {
     static var previews: some View {
         WordGroupView()
             .environmentObject(WordGroupContext())

@@ -7,18 +7,23 @@
 
 import SwiftUI
 
-struct ContainerWidthModifier: ViewModifier {
-    @Binding var containerWidth: CGFloat
+struct ViewSizeModifier: ViewModifier {
+    @Binding var width: CGFloat
+    @Binding var height: CGFloat
     
     func body(content: Content) -> some View {
         content.background(
             GeometryReader { geometry in
                 Color.clear
                     .onAppear {
-                        containerWidth = geometry.size.width
+                        width = geometry.size.width
+                        height = geometry.size.height
                     }
                     .onChange(of: geometry.size.width) { newWidth in
-                        containerWidth = newWidth
+                        width = newWidth
+                    }
+                    .onChange(of: geometry.size.height) { newHeight in
+                        height = newHeight
                     }
             }
         )
@@ -26,7 +31,7 @@ struct ContainerWidthModifier: ViewModifier {
 }
 
 extension View {
-    func containerWidth(_ containerWidth: Binding<CGFloat>) -> some View {
-        self.modifier(ContainerWidthModifier(containerWidth: containerWidth))
+    func viewSize(width: Binding<CGFloat> = .constant(0), height: Binding<CGFloat> = .constant(0)) -> some View {
+        self.modifier(ViewSizeModifier(width: width, height: height))
     }
 }

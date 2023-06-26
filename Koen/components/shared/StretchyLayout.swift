@@ -52,7 +52,7 @@ struct StretchyLayout<Content, Header, Footer>: View where Content: View, Header
     @State var headerHeight: CGFloat = 0
     
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             // just remove .sectionHeaders to make it non-sticky
             LazyVStack(spacing: 8, pinnedViews: pinnedViews) {
                 Section {
@@ -63,8 +63,10 @@ struct StretchyLayout<Content, Header, Footer>: View where Content: View, Header
                     // here is only caculable part
                     GeometryReader {
                         // detect current position of header bottom edge
-                        Color.clear.preference(key: StretchyHeaderOffsetKey.self,
-                            value: $0.frame(in: .named("area")).maxY)
+                        Color.clear.preference(
+                            key: StretchyHeaderOffsetKey.self,
+                            value: $0.frame(in: .named("area")).maxY
+                        )
                     }
                     .frame(height: height)
                     .onPreferenceChange(StretchyHeaderOffsetKey.self) {

@@ -15,17 +15,25 @@ struct WordGroupView: View {
     @Environment(\.presentationMode) var presentationMode
     
     @State var width: CGFloat = 0
+    @State var height: CGFloat = 0
+    
+    func headerHeight() -> CGFloat {
+        return width * 6 / 10
+    }
     
     var body: some View {
         
-        StretchyLayout(height: .constant(width * 6 / 10), pinnedViews: [.sectionFooters], edges: .top) {
-            GroupContent()
-        } header: {
-            GroupHeader()
-        } footer: {
+        VStack {
+            StretchyLayout(height: .constant(headerHeight()), pinnedViews: [.sectionFooters], edges: .top) {
+                GroupContent()
+                    .frame(minHeight: height - headerHeight())
+            } header: {
+                GroupHeader()
+            }
+            .viewSize(width: $width, height: $height)
+            
             GroupFooter()
         }
-        .containerWidth($width)
     }
 }
 
