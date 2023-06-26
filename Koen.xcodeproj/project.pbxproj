@@ -10,6 +10,9 @@
 		12100BD32A474E1D00F2B05A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD22A474E1D00F2B05A /* Video.swift */; };
 		12100BD52A47D05A00F2B05A /* WordGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD42A47D05A00F2B05A /* WordGroupView.swift */; };
 		12100BD72A47D0FF00F2B05A /* WordGroupContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12100BD62A47D0FF00F2B05A /* WordGroupContext.swift */; };
+		1214B5BB2A492EB200B180D3 /* GroupFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1214B5BA2A492EB200B180D3 /* GroupFooter.swift */; };
+		1214B5BE2A492EE300B180D3 /* GroupHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1214B5BD2A492EE300B180D3 /* GroupHeader.swift */; };
+		1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1214B5C02A492F1900B180D3 /* GroupContent.swift */; };
 		1215DDCD2A48831D00B94BF7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCC2A48831D00B94BF7 /* Word.swift */; };
 		1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCE2A48850600B94BF7 /* WordGroup.swift */; };
 		121F2CE02A4679120045EEBB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */; };
@@ -45,6 +48,9 @@
 		12100BD22A474E1D00F2B05A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		12100BD42A47D05A00F2B05A /* WordGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroupView.swift; sourceTree = "<group>"; };
 		12100BD62A47D0FF00F2B05A /* WordGroupContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroupContext.swift; sourceTree = "<group>"; };
+		1214B5BA2A492EB200B180D3 /* GroupFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFooter.swift; sourceTree = "<group>"; };
+		1214B5BD2A492EE300B180D3 /* GroupHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupHeader.swift; sourceTree = "<group>"; };
+		1214B5C02A492F1900B180D3 /* GroupContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupContent.swift; sourceTree = "<group>"; };
 		1215DDCC2A48831D00B94BF7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		1215DDCE2A48850600B94BF7 /* WordGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroup.swift; sourceTree = "<group>"; };
 		121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -89,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1214B5B92A492E8700B180D3 /* group */ = {
+			isa = PBXGroup;
+			children = (
+				1214B5BA2A492EB200B180D3 /* GroupFooter.swift */,
+				1214B5BD2A492EE300B180D3 /* GroupHeader.swift */,
+				1214B5C02A492F1900B180D3 /* GroupContent.swift */,
+			);
+			path = group;
+			sourceTree = "<group>";
+		};
 		1221E7162A491F360001CA77 /* extentions */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +156,7 @@
 		12AC09A52A448EC500E7BC00 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				1214B5B92A492E8700B180D3 /* group */,
 				12723ABC2A46D2A20003EEF2 /* shared */,
 				12FB80902A45388600ECF4C0 /* home */,
 			);
@@ -332,6 +349,7 @@
 			files = (
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
 				12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */,
+				1214B5BB2A492EB200B180D3 /* GroupFooter.swift in Sources */,
 				12FD25472A48A79D005ADC0C /* StretchyHeader.swift in Sources */,
 				12100BD72A47D0FF00F2B05A /* WordGroupContext.swift in Sources */,
 				125978882A48ABF0006C9065 /* StretchyLayout.swift in Sources */,
@@ -339,6 +357,7 @@
 				12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */,
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
 				127B19522A4921F8001E53E2 /* ContainerWidth.swift in Sources */,
+				1214B5BE2A492EE300B180D3 /* GroupHeader.swift in Sources */,
 				12100BD32A474E1D00F2B05A /* Video.swift in Sources */,
 				12100BD52A47D05A00F2B05A /* WordGroupView.swift in Sources */,
 				12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */,
@@ -349,6 +368,7 @@
 				12723ABE2A46D2C10003EEF2 /* SessionView.swift in Sources */,
 				122D00422A48791200C65BEE /* Vocabulary.swift in Sources */,
 				12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */,
+				1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */,
 				12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
