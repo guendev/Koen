@@ -30,6 +30,7 @@
 		1281BA502A4D146100433078 /* VocabularyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281BA4F2A4D146100433078 /* VocabularyItem.swift */; };
 		1281BA522A4D1CA000433078 /* Kumbh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1281BA512A4D1CA000433078 /* Kumbh.ttf */; };
 		12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC09AA2A44912700E7BC00 /* Welcome.swift */; };
+		12DCEF312A4E69C6008425BC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCEF302A4E69C6008425BC /* Game.swift */; };
 		12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */; };
 		12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CE2A3B285D0072BA2D /* Persistence.swift */; };
 		12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1D02A3B285D0072BA2D /* Koen.xcdatamodeld */; };
@@ -68,6 +69,7 @@
 		1281BA4F2A4D146100433078 /* VocabularyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyItem.swift; sourceTree = "<group>"; };
 		1281BA512A4D1CA000433078 /* Kumbh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kumbh.ttf; sourceTree = "<group>"; };
 		12AC09AA2A44912700E7BC00 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		12DCEF302A4E69C6008425BC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		12EAD1C92A3B285D0072BA2D /* Koen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoenApp.swift; sourceTree = "<group>"; };
 		12EAD1CE2A3B285D0072BA2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				12AC09AA2A44912700E7BC00 /* Welcome.swift */,
 				12FB80852A44B15F00ECF4C0 /* Home.swift */,
 				12100BD42A47D05A00F2B05A /* WordGroupView.swift */,
+				12DCEF302A4E69C6008425BC /* Game.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 		12AC09A52A448EC500E7BC00 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				12DCEF322A4E69E3008425BC /* game */,
 				1214B5B92A492E8700B180D3 /* group */,
 				12723ABC2A46D2A20003EEF2 /* shared */,
 				12FB80902A45388600ECF4C0 /* home */,
@@ -186,6 +190,13 @@
 				1281BA512A4D1CA000433078 /* Kumbh.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		12DCEF322A4E69E3008425BC /* game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = game;
 			sourceTree = "<group>";
 		};
 		12EAD1C02A3B285D0072BA2D = {
@@ -350,6 +361,7 @@
 				1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */,
 				12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
+				12DCEF312A4E69C6008425BC /* Game.swift in Sources */,
 				12F7231B2A4AB2B100B2D52A /* Font.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
 				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,
