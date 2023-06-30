@@ -13,18 +13,20 @@ struct GroupName: View {
     var conext: WordGroupContext
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 12) {
             Text("Figma UI UX Design Essentials")
-                .font(.custom(Poppins.SemiBold.rawValue, size: 24))
+                .font(.kumbh(size: 24))
+                .fontWeight(.semibold)
                 .tracking(0.06)
             
             Group {
                 
                 Text("For ")
-                + Text("\(conext.groupWord.difficulty.rawValue.capitalized)")
+                + Text("123456")
                     .foregroundColor(Color("Primary"))
             }
-            .font(.custom(Poppins.SemiBold.rawValue, size: 14))
+            .font(.kumbh(size: 14))
+            .fontWeight(.semibold)
             
             
             HStack(spacing: 20) {
@@ -34,8 +36,8 @@ struct GroupName: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 15, height: 15)
-                    Text("\(conext.vocabularies.count)")
-                        .font(.custom(Poppins.Regular.rawValue, size: 14))
+                    Text("123456")
+                        .font(.kumbh(size: 14))
 
                 }
                 
@@ -45,7 +47,7 @@ struct GroupName: View {
                         .scaledToFit()
                         .frame(width: 15, height: 15)
                     Text("72 Hours")
-                        .font(.custom(Poppins.Regular.rawValue, size: 14))
+                        .font(.kumbh(size: 14))
                 }
                 
             }

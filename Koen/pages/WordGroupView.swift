@@ -30,6 +30,30 @@ struct WordGroupView: View {
                     .frame(minHeight: height - headerHeight(), alignment: .top)
             } header: {
                 GroupHeader()
+                    .overlay(alignment: .top) {
+                        
+                        HStack {
+                            
+                            Button {
+                                
+                            } label: {
+                                Image(systemName: "arrow.left")
+                                    .font(.title3)
+                                    .foregroundColor(.white)
+                            }
+
+                            
+                            Spacer()
+                            
+                            Image(systemName: "magnifyingglass")
+                                .font(.title3)
+                                .foregroundColor(.white)
+                            
+                        }
+                        .padding(.top, 50)
+                        .padding(.horizontal)
+                        
+                    }
             }
             .viewSize(width: $width, height: $height)
             

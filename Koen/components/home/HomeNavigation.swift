@@ -12,10 +12,12 @@ struct HomeNavigation: View {
         HStack {
             VStack(alignment: .leading, spacing: 0) {
                 Text("Welcome 👋")
-                    .font(.custom(Poppins.Regular.rawValue, size: 18))
+                    .font(.kumbh(size: 18))
+                    .fontWeight(.medium)
                 
                 Text("Rachel Manuel")
-                    .font(.custom(Poppins.Bold.rawValue, size: 24))
+                    .font(.kumbh(size: 24))
+                    .fontWeight(.semibold)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             

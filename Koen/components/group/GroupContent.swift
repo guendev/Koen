@@ -9,8 +9,9 @@ import SwiftUI
 
 struct GroupContent: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 24) {
             GroupName()
+            GroupTab()
         }
         .padding(.horizontal)
         .frame(maxWidth: .infinity, alignment: .leading)

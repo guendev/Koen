@@ -27,7 +27,8 @@ struct SessionView<Content>: View where Content: View {
         VStack(spacing: 12) {
             HStack {
                 Text(title)
-                    .font(.custom(Poppins.SemiBold.rawValue, size: 20))
+                    .font(.kumbh(size: 20))
+                    .fontWeight(.semibold)
                 
                 Spacer()
                 

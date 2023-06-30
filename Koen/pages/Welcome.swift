@@ -18,13 +18,14 @@ struct Welcome: View {
                 VStack(spacing: 8) {
                     Text("Choose your best class")
                         .foregroundColor(.white)
-                        .font(.custom(Poppins.SemiBold.rawValue, size: 36))
+                        .font(.kumbh(size: 36))
+                        .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
                     
                     
                     Text("Various types of learning are available here according to what you need")
                         .foregroundColor(Color("Gray"))
-                        .font(.custom(Poppins.Regular.rawValue, size: 14))
+                        .font(.kumbh(size: 15))
                         .multilineTextAlignment(.center)
                 }
                 
@@ -32,11 +33,12 @@ struct Welcome: View {
                     
                 } label: {
                     Text("Get Started")
+                        .font(.kumbh(size: 18))
+                        .fontWeight(.semibold)
+                        .foregroundColor(.accentColor)
+                        .padding(.vertical, 12)
+                        .padding(.horizontal, 24)
                 }
-                .font(.custom(Poppins.Medium.rawValue, size: 18))
-                .foregroundColor(Color("Primary"))
-                .padding(.vertical, 12)
-                .padding(.horizontal, 24)
                 .background(Color.white)
                 .cornerRadius(12)
             }

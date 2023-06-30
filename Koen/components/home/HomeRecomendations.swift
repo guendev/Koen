@@ -39,10 +39,12 @@ struct HomeRecomendations: View {
                             
                             VStack(alignment: .leading) {
                                 Text(video.time)
-                                    .font(.custom(Poppins.Regular.rawValue, size: 14))
+                                    .font(.kumbh(size: 14))
+                                    .foregroundColor(.gray)
                                 
                                 Text(video.name)
-                                    .font(.custom(Poppins.Medium.rawValue, size: 18))
+                                    .font(.kumbh(size: 18))
+                                    .fontWeight(.medium)
                             }
                         }
                         .frame(width: 240)

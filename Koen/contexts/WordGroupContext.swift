@@ -24,4 +24,7 @@ class WordGroupContext: ObservableObject {
         kiwiVocabulary,
         grapeVocabulary
     ]
+    
+    @Published
+    var tab: GroupTabs = .Learning
 }

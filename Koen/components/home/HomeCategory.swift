@@ -34,7 +34,8 @@ struct HomeCategory: View {
                                     .frame(width: 68, height: 68)
                                 
                                 Text(category.name)
-                                    .font(.custom(Poppins.Regular.rawValue, size: 14))
+                                    .font(.kumbh(size: 14))
+                                    .fontWeight(.medium)
                                     .lineLimit(1)
                                     .frame(width: 68)
                             }

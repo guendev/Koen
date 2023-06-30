@@ -15,7 +15,6 @@
 		1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1214B5C02A492F1900B180D3 /* GroupContent.swift */; };
 		1215DDCD2A48831D00B94BF7 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCC2A48831D00B94BF7 /* Word.swift */; };
 		1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215DDCE2A48850600B94BF7 /* WordGroup.swift */; };
-		121F2CE02A4679120045EEBB /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */; };
 		121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F2CE12A467B790045EEBB /* HomeBanner.swift */; };
 		1221E7152A491EEB0001CA77 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1221E7142A491EEB0001CA77 /* SDWebImageSwiftUI */; };
 		1221E7182A491F4D0001CA77 /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E7172A491F4D0001CA77 /* WebImage.swift */; };
@@ -26,10 +25,11 @@
 		12723AB92A46CCE00003EEF2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB82A46CCE00003EEF2 /* Category.swift */; };
 		12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723ABA2A46D1760003EEF2 /* HomeRecomendations.swift */; };
 		12723ABE2A46D2C10003EEF2 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723ABD2A46D2C10003EEF2 /* SessionView.swift */; };
-		127B19522A4921F8001E53E2 /* ContainerWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B19512A4921F8001E53E2 /* ContainerWidth.swift */; };
+		127B19522A4921F8001E53E2 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127B19512A4921F8001E53E2 /* ViewSize.swift */; };
+		127D74C42A4A78E400230355 /* GroupTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127D74C32A4A78E400230355 /* GroupTab.swift */; };
+		1281BA502A4D146100433078 /* VocabularyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281BA4F2A4D146100433078 /* VocabularyItem.swift */; };
+		1281BA522A4D1CA000433078 /* Kumbh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1281BA512A4D1CA000433078 /* Kumbh.ttf */; };
 		12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC09AA2A44912700E7BC00 /* Welcome.swift */; };
-		12AC09DA2A44955C00E7BC00 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */; };
-		12AC09E12A4498EC00E7BC00 /* Sacramento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */; };
 		12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */; };
 		12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CE2A3B285D0072BA2D /* Persistence.swift */; };
 		12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1D02A3B285D0072BA2D /* Koen.xcdatamodeld */; };
@@ -37,9 +37,9 @@
 		12EAD1D62A3B285E0072BA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EAD1D52A3B285E0072BA2D /* Assets.xcassets */; };
 		12EAD1DA2A3B285E0072BA2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */; };
 		12ED4FD12A49400400A11D7A /* GroupName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED4FD02A49400400A11D7A /* GroupName.swift */; };
-		12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB807C2A449C1300ECF4C0 /* Poppins.swift */; };
-		12FB807F2A449E1D00ECF4C0 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */; };
-		12FB80842A44A70C00ECF4C0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */; };
+		12F198622A4A74E0002EB000 /* ButtonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F198612A4A74E0002EB000 /* ButtonPrimary.swift */; };
+		12F723192A4AB1B700B2D52A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F723182A4AB1B700B2D52A /* Color.swift */; };
+		12F7231B2A4AB2B100B2D52A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7231A2A4AB2B100B2D52A /* Font.swift */; };
 		12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB80852A44B15F00ECF4C0 /* Home.swift */; };
 		12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FB80912A45389400ECF4C0 /* HomeNavigation.swift */; };
 		12FD25472A48A79D005ADC0C /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FD25462A48A79D005ADC0C /* StretchyHeader.swift */; };
@@ -54,7 +54,6 @@
 		1214B5C02A492F1900B180D3 /* GroupContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupContent.swift; sourceTree = "<group>"; };
 		1215DDCC2A48831D00B94BF7 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		1215DDCE2A48850600B94BF7 /* WordGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroup.swift; sourceTree = "<group>"; };
-		121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		121F2CE12A467B790045EEBB /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
 		1221E7172A491F4D0001CA77 /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
 		122D00412A48791200C65BEE /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
@@ -64,10 +63,11 @@
 		12723AB82A46CCE00003EEF2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		12723ABA2A46D1760003EEF2 /* HomeRecomendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecomendations.swift; sourceTree = "<group>"; };
 		12723ABD2A46D2C10003EEF2 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
-		127B19512A4921F8001E53E2 /* ContainerWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWidth.swift; sourceTree = "<group>"; };
+		127B19512A4921F8001E53E2 /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
+		127D74C32A4A78E400230355 /* GroupTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTab.swift; sourceTree = "<group>"; };
+		1281BA4F2A4D146100433078 /* VocabularyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyItem.swift; sourceTree = "<group>"; };
+		1281BA512A4D1CA000433078 /* Kumbh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kumbh.ttf; sourceTree = "<group>"; };
 		12AC09AA2A44912700E7BC00 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
-		12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sacramento-Regular.ttf"; sourceTree = "<group>"; };
 		12EAD1C92A3B285D0072BA2D /* Koen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoenApp.swift; sourceTree = "<group>"; };
 		12EAD1CE2A3B285D0072BA2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -77,9 +77,9 @@
 		12EAD1D72A3B285E0072BA2D /* Koen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koen.entitlements; sourceTree = "<group>"; };
 		12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12ED4FD02A49400400A11D7A /* GroupName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupName.swift; sourceTree = "<group>"; };
-		12FB807C2A449C1300ECF4C0 /* Poppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poppins.swift; sourceTree = "<group>"; };
-		12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		12F198612A4A74E0002EB000 /* ButtonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPrimary.swift; sourceTree = "<group>"; };
+		12F723182A4AB1B700B2D52A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		12F7231A2A4AB2B100B2D52A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		12FB80852A44B15F00ECF4C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		12FB80912A45389400ECF4C0 /* HomeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigation.swift; sourceTree = "<group>"; };
 		12FD25462A48A79D005ADC0C /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
@@ -104,6 +104,7 @@
 				1214B5BD2A492EE300B180D3 /* GroupHeader.swift */,
 				1214B5C02A492F1900B180D3 /* GroupContent.swift */,
 				12ED4FD02A49400400A11D7A /* GroupName.swift */,
+				127D74C32A4A78E400230355 /* GroupTab.swift */,
 			);
 			path = group;
 			sourceTree = "<group>";
@@ -112,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				1221E7172A491F4D0001CA77 /* WebImage.swift */,
+				12F723182A4AB1B700B2D52A /* Color.swift */,
+				12F7231A2A4AB2B100B2D52A /* Font.swift */,
 			);
 			path = extentions;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				12723ABD2A46D2C10003EEF2 /* SessionView.swift */,
 				12FD25462A48A79D005ADC0C /* StretchyHeader.swift */,
 				125978872A48ABF0006C9065 /* StretchyLayout.swift */,
+				1281BA4F2A4D146100433078 /* VocabularyItem.swift */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -141,7 +145,8 @@
 		127B19502A4921BD001E53E2 /* modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				127B19512A4921F8001E53E2 /* ContainerWidth.swift */,
+				127B19512A4921F8001E53E2 /* ViewSize.swift */,
+				12F198612A4A74E0002EB000 /* ButtonPrimary.swift */,
 			);
 			path = modifiers;
 			sourceTree = "<group>";
@@ -178,29 +183,9 @@
 		12AC09AD2A44935200E7BC00 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				12AC09DE2A4498C400E7BC00 /* Sacramento */,
-				12AC09D82A44954200E7BC00 /* Poppins */,
+				1281BA512A4D1CA000433078 /* Kumbh.ttf */,
 			);
 			path = fonts;
-			sourceTree = "<group>";
-		};
-		12AC09D82A44954200E7BC00 /* Poppins */ = {
-			isa = PBXGroup;
-			children = (
-				121F2CDF2A4679120045EEBB /* Poppins-Bold.ttf */,
-				12FB80832A44A70C00ECF4C0 /* Poppins-Medium.ttf */,
-				12FB807E2A449E1D00ECF4C0 /* Poppins-Regular.ttf */,
-				12AC09D92A44955C00E7BC00 /* Poppins-SemiBold.ttf */,
-			);
-			path = Poppins;
-			sourceTree = "<group>";
-		};
-		12AC09DE2A4498C400E7BC00 /* Sacramento */ = {
-			isa = PBXGroup;
-			children = (
-				12AC09DF2A4498D500E7BC00 /* Sacramento-Regular.ttf */,
-			);
-			path = Sacramento;
 			sourceTree = "<group>";
 		};
 		12EAD1C02A3B285D0072BA2D = {
@@ -223,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				12AC09A52A448EC500E7BC00 /* components */,
-				12FB807B2A449BEF00ECF4C0 /* constants */,
 				12AC09A62A448EE400E7BC00 /* contexts */,
 				1221E7162A491F360001CA77 /* extentions */,
 				12AC09AD2A44935200E7BC00 /* fonts */,
@@ -247,14 +231,6 @@
 				12EAD1D92A3B285E0072BA2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		12FB807B2A449BEF00ECF4C0 /* constants */ = {
-			isa = PBXGroup;
-			children = (
-				12FB807C2A449C1300ECF4C0 /* Poppins.swift */,
-			);
-			path = constants;
 			sourceTree = "<group>";
 		};
 		12FB80902A45388600ECF4C0 /* home */ = {
@@ -333,13 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12AC09DA2A44955C00E7BC00 /* Poppins-SemiBold.ttf in Resources */,
 				12EAD1DA2A3B285E0072BA2D /* Preview Assets.xcassets in Resources */,
-				121F2CE02A4679120045EEBB /* Poppins-Bold.ttf in Resources */,
-				12AC09E12A4498EC00E7BC00 /* Sacramento-Regular.ttf in Resources */,
-				12FB80842A44A70C00ECF4C0 /* Poppins-Medium.ttf in Resources */,
+				1281BA522A4D1CA000433078 /* Kumbh.ttf in Resources */,
 				12EAD1D62A3B285E0072BA2D /* Assets.xcassets in Resources */,
-				12FB807F2A449E1D00ECF4C0 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,9 +329,11 @@
 				12100BD72A47D0FF00F2B05A /* WordGroupContext.swift in Sources */,
 				125978882A48ABF0006C9065 /* StretchyLayout.swift in Sources */,
 				1221E7182A491F4D0001CA77 /* WebImage.swift in Sources */,
+				127D74C42A4A78E400230355 /* GroupTab.swift in Sources */,
 				12723ABB2A46D1770003EEF2 /* HomeRecomendations.swift in Sources */,
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
-				127B19522A4921F8001E53E2 /* ContainerWidth.swift in Sources */,
+				12F198622A4A74E0002EB000 /* ButtonPrimary.swift in Sources */,
+				127B19522A4921F8001E53E2 /* ViewSize.swift in Sources */,
 				1214B5BE2A492EE300B180D3 /* GroupHeader.swift in Sources */,
 				12100BD32A474E1D00F2B05A /* Video.swift in Sources */,
 				12100BD52A47D05A00F2B05A /* WordGroupView.swift in Sources */,
@@ -367,14 +341,16 @@
 				12FB80922A45389400ECF4C0 /* HomeNavigation.swift in Sources */,
 				1215DDCD2A48831D00B94BF7 /* Word.swift in Sources */,
 				121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */,
+				12F723192A4AB1B700B2D52A /* Color.swift in Sources */,
 				1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */,
 				12723ABE2A46D2C10003EEF2 /* SessionView.swift in Sources */,
+				1281BA502A4D146100433078 /* VocabularyItem.swift in Sources */,
 				122D00422A48791200C65BEE /* Vocabulary.swift in Sources */,
 				12ED4FD12A49400400A11D7A /* GroupName.swift in Sources */,
-				12FB807D2A449C1300ECF4C0 /* Poppins.swift in Sources */,
 				1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */,
 				12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
+				12F7231B2A4AB2B100B2D52A /* Font.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
 				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,
 				12723AB92A46CCE00003EEF2 /* Category.swift in Sources */,
