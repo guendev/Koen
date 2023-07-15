@@ -20,7 +20,7 @@ struct HomeRecomendations: View {
                         VStack(alignment: .leading, spacing: 12) {
                             
                             RoundedRectangle(cornerRadius: 20)
-                                .fill(Color("Gray"))
+                                .fill(Color.backgroud2)
                                 .frame(height: 130)
                                 .overlay(alignment: .bottomTrailing) {
                                     Button {
@@ -40,11 +40,12 @@ struct HomeRecomendations: View {
                             VStack(alignment: .leading) {
                                 Text(video.time)
                                     .font(.kumbh(size: 14))
-                                    .foregroundColor(.gray)
+                                    .foregroundColor(.text2.opacity(0.6))
                                 
                                 Text(video.name)
                                     .font(.kumbh(size: 18))
                                     .fontWeight(.medium)
+                                    .foregroundColor(.text)
                             }
                         }
                         .frame(width: 240)

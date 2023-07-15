@@ -26,7 +26,7 @@ struct Home: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .background(Color("Background"))
+        .background(Color.backgroud)
         .environmentObject(context)
     }
 

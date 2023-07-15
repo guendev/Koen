@@ -1,5 +1,5 @@
 //
-//  Game.swift
+//  Quiz.swift
 //  Koen
 //
 //  Created by Guen on 30/06/2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Game: View {
+struct Quiz: View {
     var body: some View {
         VStack(spacing: 20) {
             
@@ -63,24 +63,25 @@ struct Game: View {
             }
             .padding(.horizontal)
             
-            VStack(alignment: .leading) {
-                Text("1234")
-            }
-            .padding(.horizontal)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-            
-            VStack {
-                Button {
-                    
-                } label: {
-                    Text("CONTINUE")
-                        .font(.kumbh(size: 16))
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
-                        .applyButton(block: true)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 0) {
+                    PictureQuiz()
                 }
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
+            
+//            VStack {
+//                Button {
+//                    
+//                } label: {
+//                    Text("CONTINUE")
+//                        .font(.kumbh(size: 16))
+//                        .fontWeight(.semibold)
+//                        .foregroundColor(.white)
+//                        .applyButton(block: true)
+//                }
+//            }
+//            .padding(.horizontal)
 
             
         }
@@ -91,8 +92,8 @@ struct Game: View {
     }
 }
 
-struct Game_Previews: PreviewProvider {
+struct Quiz_Previews: PreviewProvider {
     static var previews: some View {
-        Game()
+        Quiz()
     }
 }

@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-enum ButtonSize {
-    case Default
+enum ButtonSize2 {
+    case `default`
 }
 
 struct ButtonPrimaryModifier: ViewModifier {
     var color: Color = .accentColor
-    var size: ButtonSize = .Default
+    var size: ButtonSize = .default
     var block: Bool = false
     var shadow: Bool = true
     var radius: CGFloat = 20
@@ -31,7 +31,7 @@ struct ButtonPrimaryModifier: ViewModifier {
 }
 
 extension View {
-    func applyButton(_ color: Color = Color.accentColor, size: ButtonSize = .Default, block: Bool = false, shadow: Bool = true, radius: CGFloat = 20) -> some View {
+    func applyButton(_ color: Color = Color.accentColor, size: ButtonSize = .default, block: Bool = false, shadow: Bool = true, radius: CGFloat = 20) -> some View {
         self.modifier(ButtonPrimaryModifier(color: color, size: size, block: block, shadow: shadow, radius: radius))
     }
 }

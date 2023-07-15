@@ -1,15 +1,13 @@
 //
-//  WordGroup.swift
+//  Upgrade.swift
 //  Koen
 //
-//  Created by Guen on 25/06/2023.
+//  Created by Guen on 15/07/2023.
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
-struct WordGroupView: View {
-    
+struct Upgrade: View {
     @EnvironmentObject var context: WordGroupContext
     @Environment(\.presentationMode) var presentationMode
     
@@ -34,11 +32,36 @@ struct WordGroupView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                GroupAvatar()
+                
+                HStack {
+                    
+                    VStack(alignment: .leading, spacing: 12) {
+                        
+                        
+                        Text("Do More!")
+                            .font(.title)
+                            .fontWeight(.semibold)
+                        
+                        Text("Updare you plan and boost up your English level")
+                            .font(.title3)
+                        
+                    }
+                    .foregroundColor(.accentColor)
+                    .frame(maxWidth: .infinity)
+                    
+                    VStack {
+                        
+                        Image("scientist")
+                            .resizable()
+                            .scaledToFit()
+                        
+                    }
+                    .frame(maxWidth: .infinity)
+                    
+                }
+                
             }
             .padding(.horizontal)
-            .padding(.top)
-            .padding(.top)
             .padding(.top)
             .frame(maxWidth: .infinity)
             .background{
@@ -56,19 +79,18 @@ struct WordGroupView: View {
         .frame(maxWidth: .infinity)
         .overlay(alignment: .top) {
             HStack {
+                
                 Button {
                     
                 } label: {
                     Image(systemName: "xmark")
                         .font(.title3)
-                        .foregroundColor(.text)
+                        .foregroundColor(.text2)
+                        .opacity(0.6)
                 }
                 
                 Spacer()
                 
-                Image(systemName: "magnifyingglass")
-                    .font(.title3)
-                    .foregroundColor(.text)
             }
             .padding(.horizontal)
             .padding(.bottom)
@@ -80,28 +102,19 @@ struct WordGroupView: View {
             .viewSize(height: $headerHeight)
         }
         .overlay(alignment: .bottom) {
-            GroupFooter()
-                .background(Color.backgroud)
+            UpgradeFooter()
         }
         .background {
-            Color.backgroud
+            Color.accentColor
+                .opacity(0.01)
                 .ignoresSafeArea()
         }
         .coordinateSpace(name: "scrollView")
     }
 }
 
-struct ViewOffsetKey: PreferenceKey {
-    typealias Value = CGFloat
-    static var defaultValue = CGFloat.zero
-    static func reduce(value: inout Value, nextValue: () -> Value) {
-        value += nextValue()
-    }
-}
-
-struct WordGroup_Previews: PreviewProvider {
+struct Upgrade_Previews: PreviewProvider {
     static var previews: some View {
-        WordGroupView()
-            .environmentObject(WordGroupContext())
+        Upgrade()
     }
 }

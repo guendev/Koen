@@ -29,6 +29,7 @@ struct SessionView<Content>: View where Content: View {
                 Text(title)
                     .font(.kumbh(size: 20))
                     .fontWeight(.semibold)
+                    .foregroundColor(.text)
                 
                 Spacer()
                 

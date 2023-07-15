@@ -17,41 +17,13 @@ struct GroupName: View {
             Text("Figma UI UX Design Essentials")
                 .font(.kumbh(size: 24))
                 .fontWeight(.semibold)
+                .foregroundColor(.text)
                 .tracking(0.06)
             
-            Group {
-                
-                Text("For ")
-                + Text("123456")
-                    .foregroundColor(Color("Primary"))
-            }
-            .font(.kumbh(size: 14))
-            .fontWeight(.semibold)
-            
-            
-            HStack(spacing: 20) {
-                
-                HStack(spacing: 3) {
-                    Image(systemName: "camera.macro")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 15, height: 15)
-                    Text("123456")
-                        .font(.kumbh(size: 14))
-
-                }
-                
-                HStack(spacing: 3) {
-                    Image(systemName: "clock")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 15, height: 15)
-                    Text("72 Hours")
-                        .font(.kumbh(size: 14))
-                }
-                
-            }
-            .foregroundColor(Color.gray)
+            Text("Dissuade ecstatic and properly saw entirely sir why laughter endeavor. In on my jointure horrible margaret suitable he followed speedily. Indeed vanity excuse or mr lovers of on. By offer scale an stuff. Blush be sorry no sight. Sang lose of hour then he left find.")
+                .font(.subheadline)
+                .lineLimit(4)
+                .foregroundColor(.text2)
 
         }
     }

@@ -26,5 +26,5 @@ class HomeContext: ObservableObject {
     ]
     
     @Published
-    var openedLession: Bool = true
+    var openedLession: Bool = false
 }

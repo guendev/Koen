@@ -1,13 +1,13 @@
 //
-//  HomeBanner.swift
+//  GroupAvatar.swift
 //  Koen
 //
-//  Created by Guen on 24/06/2023.
+//  Created by Guen on 15/07/2023.
 //
 
 import SwiftUI
 
-struct HomeBanner: View {
+struct GroupAvatar: View {
     var body: some View {
         Rectangle()
             .fill(Color.backgroud2)
@@ -16,8 +16,8 @@ struct HomeBanner: View {
     }
 }
 
-struct HomeBanner_Previews: PreviewProvider {
+struct GroupAvatar_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GroupAvatar()
     }
 }

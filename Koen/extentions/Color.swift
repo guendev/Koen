@@ -8,6 +8,15 @@
 import SwiftUI
 
 extension Color {
-    public static var primary: Color = .accentColor
-    public static var warning: Color = Color("Warning")
+    static let main: Color = .accentColor
+    static let warn: Color = Color("Warn")
+    static let success: Color = Color("Success")
+    static let danger: Color = Color("Danger")
+    static let dark: Color = Color("Dark")
+    
+    static let backgroud: Color = Color("Backgroud")
+    static let backgroud2: Color = Color("Backgroud2")
+    
+    static let text: Color = Color("Text")
+    static let text2: Color = Color("Text2")
 }

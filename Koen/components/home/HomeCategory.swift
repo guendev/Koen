@@ -30,11 +30,12 @@ struct HomeCategory: View {
                             VStack(spacing: 4) {
                                 
                                 RoundedRectangle(cornerRadius: 20)
-                                    .fill(Color("Gray"))
+                                    .fill(Color.backgroud2)
                                     .frame(width: 68, height: 68)
                                 
                                 Text(category.name)
                                     .font(.kumbh(size: 14))
+                                    .foregroundColor(.text)
                                     .fontWeight(.medium)
                                     .lineLimit(1)
                                     .frame(width: 68)
@@ -43,7 +44,7 @@ struct HomeCategory: View {
                         }
                         .buttonStyle(.plain)
                         .fullScreenCover(isPresented: $conext.openedLession) {
-                            WordGroupView()
+                            // WordGroupView()
                         }
 
                     }

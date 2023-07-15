@@ -10,61 +10,47 @@ import SwiftUI
 struct GroupTab: View {
     @EnvironmentObject var context: WordGroupContext
     @Namespace private var animation
+    
+    @State var currentTab: CGFloat = 0
+    @State var tabs: [GroupTabItem] = [
+        GroupTabItem(label: "Learing", icon: ""),
+        GroupTabItem(label: "Learned", icon: ""),
+        GroupTabItem(label: "Ranking", icon: "")
+    ]
 
+    @State private var progress: Float = 0.5
     
     var body: some View {
         VStack(spacing: 26) {
-            
-            HStack(spacing: 10) {
-                
-                ForEach(GroupTabs.allCases, id: \.self) { tab in
-                    Button {
-                        
-                        withAnimation {
-                            context.tab = tab
-                        }
-                        
-                    } label: {
-                        
-                        Text(tab.rawValue)
-                            .font(.kumbh())
-                            .fontWeight(.semibold)
-                            .foregroundColor(context.tab == tab ? .white : .black)
-                            .applyButton(.clear, block: true, shadow: false)
-                            .background {
-                                if context.tab == tab {
-                                    Color.clear
-                                        .applyButton(shadow: false)
-                                        .matchedGeometryEffect(id: "WordGroupTab", in: animation)
-                                }
-                            }
-                        
-                    }
-                }
-
-            }
-            .padding(10)
-            .background {
-                Color("Gray").opacity(0.3)
-            }
-            .cornerRadius(20)
-            
-            
-            VStack(spacing: 28) {
-                ForEach(context.vocabularies, id: \.id) { vocabulary in
-                    HStack {
-                        VocabularyItem(vocabulary: vocabulary)
-                    }
-                }
-            }
             
         }
     }
 }
 
-enum GroupTabs: String, CaseIterable {
-    case Learning = "Learning"
-    case Learned = "Learned"
+
+struct CustomProgressView: ViewModifier {
+    let progress: Float
+    
+    func body(content: Content) -> some View {
+        GeometryReader { geometry in
+            ZStack(alignment: .leading) {
+                Rectangle()
+                    .foregroundColor(Color.gray.opacity(0.3))
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                
+                Rectangle()
+                    .foregroundColor(.blue)
+                    .frame(width: CGFloat(progress) * geometry.size.width, height: geometry.size.height)
+                    .animation(.easeInOut, value: progress)
+            }
+        }
+    }
+}
+
+struct GroupTabItem: Identifiable {
+    let id = UUID()
+    let label: String
+    let icon: String
 }
 
 struct GroupTab_Previews: PreviewProvider {

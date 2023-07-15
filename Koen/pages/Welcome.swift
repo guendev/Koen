@@ -11,20 +11,20 @@ struct Welcome: View {
     var body: some View {
         VStack(spacing: 100) {
             Circle()
-                .fill(Color("Gray"))
+                .fill(Color.backgroud2)
                 .frame(maxWidth: 300)
             
             VStack(spacing: 46) {
                 VStack(spacing: 8) {
                     Text("Choose your best class")
-                        .foregroundColor(.white)
+                        .foregroundColor(.text)
                         .font(.kumbh(size: 36))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
                     
                     
                     Text("Various types of learning are available here according to what you need")
-                        .foregroundColor(Color("Gray"))
+                        .foregroundColor(.text)
                         .font(.kumbh(size: 15))
                         .multilineTextAlignment(.center)
                 }
@@ -33,20 +33,14 @@ struct Welcome: View {
                     
                 } label: {
                     Text("Get Started")
-                        .font(.kumbh(size: 18))
-                        .fontWeight(.semibold)
-                        .foregroundColor(.accentColor)
-                        .padding(.vertical, 12)
-                        .padding(.horizontal, 24)
+                        .customButtonStyle(color: .accentColor, size: .large)
                 }
-                .background(Color.white)
-                .cornerRadius(12)
             }
             .frame(maxWidth: 300)
             
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("Primary"))
+        .background(Color.backgroud)
     }
 }
 

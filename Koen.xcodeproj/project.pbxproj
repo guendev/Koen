@@ -18,7 +18,9 @@
 		121F2CE22A467B790045EEBB /* HomeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F2CE12A467B790045EEBB /* HomeBanner.swift */; };
 		1221E7152A491EEB0001CA77 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1221E7142A491EEB0001CA77 /* SDWebImageSwiftUI */; };
 		1221E7182A491F4D0001CA77 /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221E7172A491F4D0001CA77 /* WebImage.swift */; };
+		1226E51A2A512D3400BC0682 /* PictureQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E5192A512D3400BC0682 /* PictureQuiz.swift */; };
 		122D00422A48791200C65BEE /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D00412A48791200C65BEE /* Vocabulary.swift */; };
+		1238719A2A62C67C0076EB18 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123871992A62C67C0076EB18 /* CornerRadius.swift */; };
 		125978882A48ABF0006C9065 /* StretchyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125978872A48ABF0006C9065 /* StretchyLayout.swift */; };
 		12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB32A46C9E00003EEF2 /* HomeCategory.swift */; };
 		12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB52A46CAD60003EEF2 /* HomeContext.swift */; };
@@ -30,7 +32,11 @@
 		1281BA502A4D146100433078 /* VocabularyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281BA4F2A4D146100433078 /* VocabularyItem.swift */; };
 		1281BA522A4D1CA000433078 /* Kumbh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1281BA512A4D1CA000433078 /* Kumbh.ttf */; };
 		12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC09AA2A44912700E7BC00 /* Welcome.swift */; };
-		12DCEF312A4E69C6008425BC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCEF302A4E69C6008425BC /* Game.swift */; };
+		12B262892A6271A200A8A154 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B262882A6271A200A8A154 /* CustomButtonView.swift */; };
+		12B2628D2A629DE700A8A154 /* GroupAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2628C2A629DE700A8A154 /* GroupAvatar.swift */; };
+		12B2628F2A62B25E00A8A154 /* Upgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2628E2A62B25E00A8A154 /* Upgrade.swift */; };
+		12B262922A62B3BC00A8A154 /* UpgradeFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B262912A62B3BC00A8A154 /* UpgradeFooter.swift */; };
+		12DCEF312A4E69C6008425BC /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCEF302A4E69C6008425BC /* Quiz.swift */; };
 		12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */; };
 		12EAD1CF2A3B285D0072BA2D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1CE2A3B285D0072BA2D /* Persistence.swift */; };
 		12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EAD1D02A3B285D0072BA2D /* Koen.xcdatamodeld */; };
@@ -57,7 +63,9 @@
 		1215DDCE2A48850600B94BF7 /* WordGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGroup.swift; sourceTree = "<group>"; };
 		121F2CE12A467B790045EEBB /* HomeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBanner.swift; sourceTree = "<group>"; };
 		1221E7172A491F4D0001CA77 /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImage.swift; sourceTree = "<group>"; };
+		1226E5192A512D3400BC0682 /* PictureQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQuiz.swift; sourceTree = "<group>"; };
 		122D00412A48791200C65BEE /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		123871992A62C67C0076EB18 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
 		125978872A48ABF0006C9065 /* StretchyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyLayout.swift; sourceTree = "<group>"; };
 		12723AB32A46C9E00003EEF2 /* HomeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategory.swift; sourceTree = "<group>"; };
 		12723AB52A46CAD60003EEF2 /* HomeContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContext.swift; sourceTree = "<group>"; };
@@ -69,7 +77,11 @@
 		1281BA4F2A4D146100433078 /* VocabularyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyItem.swift; sourceTree = "<group>"; };
 		1281BA512A4D1CA000433078 /* Kumbh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kumbh.ttf; sourceTree = "<group>"; };
 		12AC09AA2A44912700E7BC00 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
-		12DCEF302A4E69C6008425BC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		12B262882A6271A200A8A154 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		12B2628C2A629DE700A8A154 /* GroupAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAvatar.swift; sourceTree = "<group>"; };
+		12B2628E2A62B25E00A8A154 /* Upgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrade.swift; sourceTree = "<group>"; };
+		12B262912A62B3BC00A8A154 /* UpgradeFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeFooter.swift; sourceTree = "<group>"; };
+		12DCEF302A4E69C6008425BC /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		12EAD1C92A3B285D0072BA2D /* Koen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12EAD1CC2A3B285D0072BA2D /* KoenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoenApp.swift; sourceTree = "<group>"; };
 		12EAD1CE2A3B285D0072BA2D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -107,6 +119,7 @@
 				1214B5C02A492F1900B180D3 /* GroupContent.swift */,
 				12ED4FD02A49400400A11D7A /* GroupName.swift */,
 				127D74C32A4A78E400230355 /* GroupTab.swift */,
+				12B2628C2A629DE700A8A154 /* GroupAvatar.swift */,
 			);
 			path = group;
 			sourceTree = "<group>";
@@ -117,6 +130,7 @@
 				1221E7172A491F4D0001CA77 /* WebImage.swift */,
 				12F723182A4AB1B700B2D52A /* Color.swift */,
 				12F7231A2A4AB2B100B2D52A /* Font.swift */,
+				123871992A62C67C0076EB18 /* CornerRadius.swift */,
 			);
 			path = extentions;
 			sourceTree = "<group>";
@@ -159,7 +173,8 @@
 				12AC09AA2A44912700E7BC00 /* Welcome.swift */,
 				12FB80852A44B15F00ECF4C0 /* Home.swift */,
 				12100BD42A47D05A00F2B05A /* WordGroupView.swift */,
-				12DCEF302A4E69C6008425BC /* Game.swift */,
+				12DCEF302A4E69C6008425BC /* Quiz.swift */,
+				12B2628E2A62B25E00A8A154 /* Upgrade.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -167,7 +182,9 @@
 		12AC09A52A448EC500E7BC00 /* components */ = {
 			isa = PBXGroup;
 			children = (
-				12DCEF322A4E69E3008425BC /* game */,
+				12B262902A62B3A200A8A154 /* upgrade */,
+				12B262872A62718900A8A154 /* common */,
+				12DCEF322A4E69E3008425BC /* quiz */,
 				1214B5B92A492E8700B180D3 /* group */,
 				12723ABC2A46D2A20003EEF2 /* shared */,
 				12FB80902A45388600ECF4C0 /* home */,
@@ -192,11 +209,28 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		12DCEF322A4E69E3008425BC /* game */ = {
+		12B262872A62718900A8A154 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				12B262882A6271A200A8A154 /* CustomButtonView.swift */,
 			);
-			path = game;
+			path = common;
+			sourceTree = "<group>";
+		};
+		12B262902A62B3A200A8A154 /* upgrade */ = {
+			isa = PBXGroup;
+			children = (
+				12B262912A62B3BC00A8A154 /* UpgradeFooter.swift */,
+			);
+			path = upgrade;
+			sourceTree = "<group>";
+		};
+		12DCEF322A4E69E3008425BC /* quiz */ = {
+			isa = PBXGroup;
+			children = (
+				1226E5192A512D3400BC0682 /* PictureQuiz.swift */,
+			);
+			path = quiz;
 			sourceTree = "<group>";
 		};
 		12EAD1C02A3B285D0072BA2D = {
@@ -333,8 +367,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B2628D2A629DE700A8A154 /* GroupAvatar.swift in Sources */,
+				12B262892A6271A200A8A154 /* CustomButtonView.swift in Sources */,
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
 				12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */,
+				12B2628F2A62B25E00A8A154 /* Upgrade.swift in Sources */,
 				1214B5BB2A492EB200B180D3 /* GroupFooter.swift in Sources */,
 				12FD25472A48A79D005ADC0C /* StretchyHeader.swift in Sources */,
 				12100BD72A47D0FF00F2B05A /* WordGroupContext.swift in Sources */,
@@ -345,6 +382,7 @@
 				12AC09AB2A44912700E7BC00 /* Welcome.swift in Sources */,
 				12F198622A4A74E0002EB000 /* ButtonPrimary.swift in Sources */,
 				127B19522A4921F8001E53E2 /* ViewSize.swift in Sources */,
+				12B262922A62B3BC00A8A154 /* UpgradeFooter.swift in Sources */,
 				1214B5BE2A492EE300B180D3 /* GroupHeader.swift in Sources */,
 				12100BD32A474E1D00F2B05A /* Video.swift in Sources */,
 				12100BD52A47D05A00F2B05A /* WordGroupView.swift in Sources */,
@@ -355,13 +393,15 @@
 				12F723192A4AB1B700B2D52A /* Color.swift in Sources */,
 				1215DDCF2A48850600B94BF7 /* WordGroup.swift in Sources */,
 				12723ABE2A46D2C10003EEF2 /* SessionView.swift in Sources */,
+				1238719A2A62C67C0076EB18 /* CornerRadius.swift in Sources */,
 				1281BA502A4D146100433078 /* VocabularyItem.swift in Sources */,
 				122D00422A48791200C65BEE /* Vocabulary.swift in Sources */,
 				12ED4FD12A49400400A11D7A /* GroupName.swift in Sources */,
+				1226E51A2A512D3400BC0682 /* PictureQuiz.swift in Sources */,
 				1214B5C12A492F1900B180D3 /* GroupContent.swift in Sources */,
 				12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */,
 				12EAD1D42A3B285D0072BA2D /* ContentView.swift in Sources */,
-				12DCEF312A4E69C6008425BC /* Game.swift in Sources */,
+				12DCEF312A4E69C6008425BC /* Quiz.swift in Sources */,
 				12F7231B2A4AB2B100B2D52A /* Font.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
 				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,

@@ -20,9 +20,7 @@ struct GroupFooter: View {
             } label: {
                 
                 Image(systemName: "brain")
-                    .font(.kumbh(size: 16).weight(.heavy))
-                    .foregroundColor(.white)
-                    .applyButton(.warning)
+                    .customButtonStyle(color: .warn, size: .large)
                 
             }
             
@@ -32,17 +30,13 @@ struct GroupFooter: View {
             } label: {
                 
                 Text("START LEARNING")
-                    .font(.kumbh(size: 16))
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .applyButton(.accentColor, block: true)
+                    .customButtonStyle(block: true, color: .accentColor, size: .large)
                 
             }
             
         }
         .padding(.vertical, 18)
         .padding(.horizontal)
-        .background(Color.white)
     }
 }
 

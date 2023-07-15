@@ -14,10 +14,12 @@ struct HomeNavigation: View {
                 Text("Welcome 👋")
                     .font(.kumbh(size: 18))
                     .fontWeight(.medium)
+                    .foregroundColor(.text)
                 
                 Text("Rachel Manuel")
                     .font(.kumbh(size: 24))
                     .fontWeight(.semibold)
+                    .foregroundColor(.text)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             
@@ -27,7 +29,7 @@ struct HomeNavigation: View {
                 Image(systemName: "bell.badge.fill")
                     .resizable()
                     .frame(width: 24, height: 24)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.text2)
             }
 
             
