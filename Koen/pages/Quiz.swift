@@ -54,7 +54,8 @@ struct Quiz: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
                     // PictureQuiz()
-                    TextMatcherQuiz()
+                    // TextMatchingQuiz()
+                    AudioMatchingQuiz()
                 }
                 .padding(.horizontal)
             }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextMatcherQuiz: View {
+struct TextMatchingQuiz: View {
     
     var resource: [Vocabulary] = [
         appleVocabulary,
