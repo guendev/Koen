@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Quiz: View {
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 40) {
             
             
             VStack(spacing: 10) {
@@ -46,26 +46,15 @@ struct Quiz: View {
                 }
                 
                 
-                HStack {
-                    
-                    RoundedRectangle(cornerRadius: 10)
-                        .fill(Color.gray.opacity(0.2))
-                        .frame(height: 12)
-                        .overlay(alignment: .leading) {
-                            
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(Color("Primary"))
-                                .frame(width: 100)
-                            
-                        }
-                    
-                }
+                CustomProcessView(process: 0.5)
+                    .frame(height: 12)
             }
             .padding(.horizontal)
             
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
-                    PictureQuiz()
+                    // PictureQuiz()
+                    TextMatcherQuiz()
                 }
                 .padding(.horizontal)
             }
@@ -75,10 +64,7 @@ struct Quiz: View {
 //                    
 //                } label: {
 //                    Text("CONTINUE")
-//                        .font(.kumbh(size: 16))
-//                        .fontWeight(.semibold)
-//                        .foregroundColor(.white)
-//                        .applyButton(block: true)
+//                        .customButtonStyle(block: true, color: .accentColor, size: .large)
 //                }
 //            }
 //            .padding(.horizontal)
@@ -87,7 +73,8 @@ struct Quiz: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background {
-            Color.white
+            Color.backgroud
+                .ignoresSafeArea()
         }
     }
 }

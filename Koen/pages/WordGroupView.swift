@@ -10,92 +10,33 @@ import SDWebImageSwiftUI
 
 struct WordGroupView: View {
     
-    @EnvironmentObject var context: WordGroupContext
+    @EnvironmentObject var conext: WordGroupContext
+    
     @Environment(\.presentationMode) var presentationMode
     
-    @State var headerHeight: CGFloat = 0
-    @State var scrollOffset: CGFloat = 0
-    
-    
-    func getOpacity() -> CGFloat {
-        if scrollOffset >= headerHeight {
-            return 1
-        }
-        if scrollOffset < 0 {
-            return 0
-        }
-        
-        if scrollOffset > 0 && scrollOffset <= headerHeight {
-            return scrollOffset / headerHeight
-        }
-        return 0
-    }
+    @State var width: CGFloat = 0
+
+    @State var offsetY: CGFloat = .zero
     
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                GroupAvatar()
+        
+        ScrollView(showsIndicators: false) {
+            VStack {
+                
+                WebImage(src: "https://i.imgur.com/EHqRMxW.jpeg")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 250)
+                
+                ForEach(1...100, id: \.self) { index in
+                    Text("Row \(index)")
+                        .frame(height: 50)
+                }
+                
             }
-            .padding(.horizontal)
-            .padding(.top)
-            .padding(.top)
-            .padding(.top)
             .frame(maxWidth: .infinity)
-            .background{
-                GeometryReader {
-                    Color.clear.preference(
-                        key: ViewOffsetKey.self,
-                        value: -$0.frame(in: .named("scrollView")).origin.y
-                    )
-                }
-            }
-            .onPreferenceChange(ViewOffsetKey.self) { value in
-                scrollOffset = value
-            }
         }
-        .frame(maxWidth: .infinity)
-        .overlay(alignment: .top) {
-            HStack {
-                Button {
-                    
-                } label: {
-                    Image(systemName: "xmark")
-                        .font(.title3)
-                        .foregroundColor(.text)
-                }
-                
-                Spacer()
-                
-                Image(systemName: "magnifyingglass")
-                    .font(.title3)
-                    .foregroundColor(.text)
-            }
-            .padding(.horizontal)
-            .padding(.bottom)
-            .background {
-                Color.backgroud
-                    .ignoresSafeArea()
-                    .opacity(getOpacity())
-            }
-            .viewSize(height: $headerHeight)
-        }
-        .overlay(alignment: .bottom) {
-            GroupFooter()
-                .background(Color.backgroud)
-        }
-        .background {
-            Color.backgroud
-                .ignoresSafeArea()
-        }
-        .coordinateSpace(name: "scrollView")
-    }
-}
-
-struct ViewOffsetKey: PreferenceKey {
-    typealias Value = CGFloat
-    static var defaultValue = CGFloat.zero
-    static func reduce(value: inout Value, nextValue: () -> Value) {
-        value += nextValue()
+        .edgesIgnoringSafeArea(.top)
     }
 }
 

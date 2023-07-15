@@ -21,6 +21,9 @@
 		1226E51A2A512D3400BC0682 /* PictureQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E5192A512D3400BC0682 /* PictureQuiz.swift */; };
 		122D00422A48791200C65BEE /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D00412A48791200C65BEE /* Vocabulary.swift */; };
 		1238719A2A62C67C0076EB18 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123871992A62C67C0076EB18 /* CornerRadius.swift */; };
+		1238719C2A62C8200076EB18 /* GroupAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238719B2A62C8200076EB18 /* GroupAppBar.swift */; };
+		1238719E2A62E5150076EB18 /* TextMatcherQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238719D2A62E5150076EB18 /* TextMatcherQuiz.swift */; };
+		123871A02A62E7DF0076EB18 /* CustomProcessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238719F2A62E7DF0076EB18 /* CustomProcessView.swift */; };
 		125978882A48ABF0006C9065 /* StretchyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125978872A48ABF0006C9065 /* StretchyLayout.swift */; };
 		12723AB42A46C9E00003EEF2 /* HomeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB32A46C9E00003EEF2 /* HomeCategory.swift */; };
 		12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12723AB52A46CAD60003EEF2 /* HomeContext.swift */; };
@@ -66,6 +69,9 @@
 		1226E5192A512D3400BC0682 /* PictureQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureQuiz.swift; sourceTree = "<group>"; };
 		122D00412A48791200C65BEE /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 		123871992A62C67C0076EB18 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		1238719B2A62C8200076EB18 /* GroupAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAppBar.swift; sourceTree = "<group>"; };
+		1238719D2A62E5150076EB18 /* TextMatcherQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMatcherQuiz.swift; sourceTree = "<group>"; };
+		1238719F2A62E7DF0076EB18 /* CustomProcessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProcessView.swift; sourceTree = "<group>"; };
 		125978872A48ABF0006C9065 /* StretchyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyLayout.swift; sourceTree = "<group>"; };
 		12723AB32A46C9E00003EEF2 /* HomeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategory.swift; sourceTree = "<group>"; };
 		12723AB52A46CAD60003EEF2 /* HomeContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContext.swift; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 				12ED4FD02A49400400A11D7A /* GroupName.swift */,
 				127D74C32A4A78E400230355 /* GroupTab.swift */,
 				12B2628C2A629DE700A8A154 /* GroupAvatar.swift */,
+				1238719B2A62C8200076EB18 /* GroupAppBar.swift */,
 			);
 			path = group;
 			sourceTree = "<group>";
@@ -213,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				12B262882A6271A200A8A154 /* CustomButtonView.swift */,
+				1238719F2A62E7DF0076EB18 /* CustomProcessView.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				1226E5192A512D3400BC0682 /* PictureQuiz.swift */,
+				1238719D2A62E5150076EB18 /* TextMatcherQuiz.swift */,
 			);
 			path = quiz;
 			sourceTree = "<group>";
@@ -369,11 +378,13 @@
 			files = (
 				12B2628D2A629DE700A8A154 /* GroupAvatar.swift in Sources */,
 				12B262892A6271A200A8A154 /* CustomButtonView.swift in Sources */,
+				1238719E2A62E5150076EB18 /* TextMatcherQuiz.swift in Sources */,
 				12EAD1CD2A3B285D0072BA2D /* KoenApp.swift in Sources */,
 				12723AB62A46CAD60003EEF2 /* HomeContext.swift in Sources */,
 				12B2628F2A62B25E00A8A154 /* Upgrade.swift in Sources */,
 				1214B5BB2A492EB200B180D3 /* GroupFooter.swift in Sources */,
 				12FD25472A48A79D005ADC0C /* StretchyHeader.swift in Sources */,
+				1238719C2A62C8200076EB18 /* GroupAppBar.swift in Sources */,
 				12100BD72A47D0FF00F2B05A /* WordGroupContext.swift in Sources */,
 				125978882A48ABF0006C9065 /* StretchyLayout.swift in Sources */,
 				1221E7182A491F4D0001CA77 /* WebImage.swift in Sources */,
@@ -404,6 +415,7 @@
 				12DCEF312A4E69C6008425BC /* Quiz.swift in Sources */,
 				12F7231B2A4AB2B100B2D52A /* Font.swift in Sources */,
 				12EAD1D22A3B285D0072BA2D /* Koen.xcdatamodeld in Sources */,
+				123871A02A62E7DF0076EB18 /* CustomProcessView.swift in Sources */,
 				12FB80862A44B15F00ECF4C0 /* Home.swift in Sources */,
 				12723AB92A46CCE00003EEF2 /* Category.swift in Sources */,
 			);

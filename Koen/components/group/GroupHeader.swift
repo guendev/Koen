@@ -22,6 +22,7 @@ struct GroupHeader: View {
 
 struct GroupHeader_Previews: PreviewProvider {
     static var previews: some View {
-        GroupHeader()
+        WordGroupView()
+            .environmentObject(WordGroupContext())
     }
 }

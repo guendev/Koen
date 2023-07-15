@@ -22,31 +22,31 @@ struct PictureQuiz: View {
         return userAnswer == answer
     }
     
-    func getBg(answer: String) -> Color {
+    func getButtonColor(answer: String) -> Color {
         if answered && answer == userAnswer {
-            return answer == self.answer ? .main : .danger
+            return answer == self.answer ? .accentColor : .danger
         }
-        
-        return .clear
+        return .text.opacity(0.2)
     }
     
     func getTextColor(answer: String) -> Color {
-        return answered && answer == userAnswer ? .white : .gray
+        return answered && answer == userAnswer ? .white : .text
     }
     
-    func getStrokeColor(answer: String) -> Color {
-        return answered && answer == userAnswer ? getBg(answer: answer) : .gray
+    func getButtonDesign(answer: String) -> ButtonDesign {
+        return answered && answer == userAnswer ? .default : .border
     }
     
     var body: some View {
-        VStack(spacing: 0) {
+        VStack(spacing: 50) {
             
             Image("eegs")
                 .resizable()
-                .aspectRatio(1/1, contentMode: .fit)
+                .scaledToFit()
+                .frame(width: 300, height: 300)
                 .cornerRadius(20)
             
-            VStack(spacing: 25) {
+            VStack(spacing: 30) {
                 
                 ForEach(options, id: \.self) { answer in
                     Button {
@@ -55,19 +55,15 @@ struct PictureQuiz: View {
                         }
                     } label: {
                         Text(answer)
-                            .font(.kumbh(size: 16))
-                            .fontWeight(.semibold)
-                            .applyButton(getBg(answer: answer), block: true)
+                            .font(.callout)
                             .foregroundColor(getTextColor(answer: answer))
-                            .overlay {
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(getStrokeColor(answer: answer).opacity(0.5), lineWidth: 2)
-                            }
+                            .fontWeight(.semibold)
+                            .padding(.vertical, 4)
+                            .customButtonStyle(block: true, color: getButtonColor(answer: answer), design: getButtonDesign(answer: answer))
                     }
                     .disabled(answered)
                 }
             }
-            .padding(.top, 35)
         }
     }
 }

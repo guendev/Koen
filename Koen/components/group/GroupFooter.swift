@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GroupFooter: View {
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(spacing: 20) {
             
             Button {
                 

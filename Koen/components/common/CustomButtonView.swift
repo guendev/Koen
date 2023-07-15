@@ -57,7 +57,7 @@ struct CustomButtonStyleModifier: ViewModifier {
         case .large:
             return EdgeInsets(top: 14, leading: 18, bottom: 14, trailing: 18)
         case .default:
-            return EdgeInsets(top: 10, leading: 12, bottom: 10, trailing: 12)
+            return EdgeInsets(top: 12, leading: 18, bottom: 12, trailing: 18)
         case .small:
             return EdgeInsets(top: 6, leading: 10, bottom: 6, trailing: 10)
         case .mini:

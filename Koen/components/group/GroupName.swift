@@ -14,8 +14,8 @@ struct GroupName: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Figma UI UX Design Essentials")
-                .font(.kumbh(size: 24))
+            Text("You can also use your own")
+                .font(.title)
                 .fontWeight(.semibold)
                 .foregroundColor(.text)
                 .tracking(0.06)
